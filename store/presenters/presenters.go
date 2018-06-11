@@ -102,6 +102,10 @@ func (a *AccountBalance) SetID(value string) error {
 	return nil
 }
 
+// Config TODO...
+type Config struct {
+}
+
 // JobSpec holds the JobSpec definition and each run associated with that Job.
 type JobSpec struct {
 	models.JobSpec
